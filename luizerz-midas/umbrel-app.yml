@@ -1,12 +1,12 @@
 manifestVersion: 1
-id: luizsena-midas
+id: luizerz-midas
 storage:
   dataRoot: data
 category: finance
 name: Midas
 version: "0.1.0"
 tagline: Gastos do cartão, aporte e o que sobra do salário
-icon: https://raw.githubusercontent.com/Luizerz/umbrel-apps/main/luizsena-midas/icon.svg
+icon: https://raw.githubusercontent.com/Luizerz/umbrel-apps/main/luizerz-midas/icon.svg
 description: >-
   Substitui a planilha mensal de gastos: faturas dos cartões (importadas da
   Nubank e da Rico), descontos de quem usa seus cartões, pagamentos fixos,

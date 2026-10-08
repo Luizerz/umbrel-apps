@@ -4,13 +4,13 @@ services:
   app_proxy:
     environment:
       # <app-id>_<serviço>_1
-      APP_HOST: luizsena-midas_web_1
+      APP_HOST: luizerz-midas_web_1
       APP_PORT: 3847
       # Login do umbrel continua ligado (padrão). O Midas tem login próprio por cima.
 
   web:
     # Gerado pelo workflow .github/workflows/image.yml (tag + digest multi-arch).
-    image: ghcr.io/luizerz/midas:0.1.0@sha256:COLE_O_DIGEST_AQUI
+    image: ghcr.io/luizerz/midas:0.1.0@sha256:38438bb8f0cb787475f9a5ec8ae77dba1eda5880663018dd12982fb4946b977b
     user: "1000:1000"
     init: true
     restart: on-failure
@@ -19,7 +19,7 @@ services:
       TZ: America/Sao_Paulo
       # Senha de login: gerada pelo umbrel (deterministicPassword) e mostrada no app.
       MIDAS_PASSWORD: ${APP_PASSWORD}
-      MIDAS_SECRET: ${APP_LUIZSENA_MIDAS_SESSION_SECRET}
+      MIDAS_SECRET: ${APP_LUIZERZ_MIDAS_SESSION_SECRET}
     volumes:
       # Banco SQLite (midas.db). Entra no backup do umbrel.
       - ${APP_DATA_DIR}/data/midas:/data
