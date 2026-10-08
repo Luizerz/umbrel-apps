@@ -1,0 +1,39 @@
+manifestVersion: 1
+id: luizsena-midas
+storage:
+  dataRoot: data
+category: finance
+name: Midas
+version: "0.1.0"
+tagline: Gastos do cartão, aporte e o que sobra do salário
+icon: https://raw.githubusercontent.com/Luizerz/umbrel-apps/main/luizsena-midas/icon.svg
+description: >-
+  Substitui a planilha mensal de gastos: faturas dos cartões (importadas da
+  Nubank e da Rico), descontos de quem usa seus cartões, pagamentos fixos,
+  aporte e quanto sobra livre no mês.
+
+
+  Segurança: o Midas tem login próprio. A senha é gerada pelo umbrel para esta
+  instalação e aparece nos detalhes do app. Por padrão o umbrel também pede o
+  login do umbrel antes de abrir o Midas.
+
+
+  Use só na rede local ou pela VPN. Não exponha a porta na internet.
+releaseNotes: ""
+
+developer: Luiz Sena
+website: https://github.com/Luizerz/umbrel-apps
+dependencies: []
+repo: https://github.com/Luizerz/umbrel-apps
+support: https://github.com/Luizerz/umbrel-apps/issues
+
+port: 3847
+gallery: []
+path: ""
+
+defaultUsername: ""
+defaultPassword: ""
+deterministicPassword: true
+
+submitter: Luiz Sena
+submission: https://github.com/Luizerz/umbrel-apps
