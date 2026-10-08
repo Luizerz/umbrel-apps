@@ -4,7 +4,7 @@ storage:
   dataRoot: data
 category: finance
 name: Midas
-version: "0.1.0"
+version: "0.2.0"
 tagline: Gastos do cartão, aporte e o que sobra do salário
 icon: https://raw.githubusercontent.com/Luizerz/umbrel-apps/main/luizerz-midas/icon.svg
 description: >-
@@ -20,7 +20,14 @@ description: >-
 
 
   Use só na rede local ou pela VPN. Não exponha a porta na internet.
-releaseNotes: ""
+releaseNotes: >-
+  Senha própria: no primeiro acesso, entre com a senha mostrada pelo umbrel e
+  crie a sua (15+ caracteres). Depois disso a senha do umbrel deixa de entrar.
+  Dá para trocar em Ajustes → Segurança. Esqueceu? Rode
+  "node scripts/reset-password.mjs" no container do Midas.
+
+
+  Corrige o ícone que não aparecia na aba do navegador.
 
 developer: Luiz Sena
 website: https://github.com/Luizerz/umbrel-apps

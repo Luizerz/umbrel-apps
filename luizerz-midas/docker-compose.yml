@@ -10,7 +10,7 @@ services:
 
   web:
     # Gerado pelo workflow .github/workflows/image.yml (tag + digest multi-arch).
-    image: ghcr.io/luizerz/midas:0.1.0@sha256:38438bb8f0cb787475f9a5ec8ae77dba1eda5880663018dd12982fb4946b977b
+    image: ghcr.io/luizerz/midas:0.2.0@sha256:216d37baa647853323b37a485611689d3dc911b45f284896b8638bd9fb602110
     user: "1000:1000"
     init: true
     restart: on-failure
