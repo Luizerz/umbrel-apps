@@ -4,7 +4,7 @@ storage:
   dataRoot: data
 category: finance
 name: Midas
-version: "0.2.1"
+version: "0.2.2"
 tagline: Gastos do cartão, aporte e o que sobra do salário
 icon: https://raw.githubusercontent.com/Luizerz/umbrel-apps/main/luizerz-midas/icon.svg
 description: >-
@@ -21,9 +21,9 @@ description: >-
 
   Use só na rede local ou pela VPN. Não exponha a porta na internet.
 releaseNotes: >-
-  Ícone novo: a digital de ouro (o toque de Midas) no lugar da moedinha, no
-  app, no favicon e no umbrel. O carregamento agora mostra a digital se
-  desenhando do centro para fora.
+  Aba Pessoas arrumada no iPhone: os cards não estouram mais a tela. Cada
+  pessoa mostra o total em destaque e, em cada mês, um resumo curto
+  (quantos lançamentos e de quais cartões).
 
 developer: Luiz Sena
 website: https://github.com/Luizerz/umbrel-apps
