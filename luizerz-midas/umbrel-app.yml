@@ -13,9 +13,10 @@ description: >-
   aporte e quanto sobra livre no mês.
 
 
-  Segurança: o Midas tem login próprio. A senha é gerada pelo umbrel para esta
-  instalação e aparece nos detalhes do app. Por padrão o umbrel também pede o
-  login do umbrel antes de abrir o Midas.
+  Segurança: o Midas tem login próprio. No primeiro acesso, entre com a senha
+  inicial gerada pelo umbrel (aparece nos detalhes do app) e crie a sua; a
+  inicial deixa de funcionar. Por padrão o umbrel também pede o login do
+  umbrel antes de abrir o Midas.
 
 
   Use só na rede local ou pela VPN. Não exponha a porta na internet.

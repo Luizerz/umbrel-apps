@@ -17,7 +17,8 @@ services:
     stop_grace_period: 30s
     environment:
       TZ: America/Sao_Paulo
-      # Senha de login: gerada pelo umbrel (deterministicPassword) e mostrada no app.
+      # Senha inicial: gerada pelo umbrel (deterministicPassword) e mostrada no app.
+      # Só vale para o primeiro acesso, em que o Midas pede para criar a senha.
       MIDAS_PASSWORD: ${APP_PASSWORD}
       MIDAS_SECRET: ${APP_LUIZERZ_MIDAS_SESSION_SECRET}
     volumes:
