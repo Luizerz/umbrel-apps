@@ -1,27 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Midas">
-  <defs>
-    <radialGradient id="face" cx="38%" cy="32%" r="75%">
-      <stop offset="0" stop-color="#FDE68A"/>
-      <stop offset="0.55" stop-color="#F59E0B"/>
-      <stop offset="1" stop-color="#B45309"/>
-    </radialGradient>
-    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FBBF24"/>
-      <stop offset="1" stop-color="#92400E"/>
-    </linearGradient>
-  </defs>
-  <!-- borda -->
-  <circle cx="32" cy="32" r="30" fill="url(#rim)"/>
-  <!-- serrilhado -->
-  <circle cx="32" cy="32" r="28.5" fill="none" stroke="#FDE68A" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="1.2 1.6"/>
-  <!-- face -->
-  <circle cx="32" cy="32" r="26" fill="url(#face)"/>
-  <!-- aro interno -->
-  <circle cx="32" cy="32" r="21.5" fill="none" stroke="#92400E" stroke-opacity="0.45" stroke-width="1.2"/>
-  <!-- M em relevo: sombra + luz -->
-  <path d="M21.5 42.5V22.5L32 34.5L42.5 22.5V42.5" fill="none" stroke="#78350F" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(0.6 0.8)" opacity="0.55"/>
-  <path d="M21.5 42.5V22.5L32 34.5L42.5 22.5V42.5" fill="none" stroke="#92400E" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M21.5 42.5V22.5L32 34.5L42.5 22.5V42.5" fill="none" stroke="#FEF3C7" stroke-opacity="0.5" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.7 -0.9)"/>
-  <!-- brilho -->
-  <ellipse cx="23" cy="18" rx="9" ry="4.5" fill="#FFFFFF" opacity="0.28" transform="rotate(-30 23 18)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256" role="img" aria-label="Midas">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2C2C2E"/><stop offset="1" stop-color="#0A0A0B"/></linearGradient></defs>
+  <rect width="100" height="100" fill="url(#bg)"/>
+  <g transform="translate(17 17) scale(0.66)">
+  <g fill="none" stroke-linecap="round" stroke-width="3.21">
+    <path class="hi" stroke="#FDE68A" d="M47.98 43.24A5.91 6.94 -19 1 1 48.06 56.44"/>
+    <path class="hi" stroke="#FDE68A" d="M45.71 54.85A5.91 6.94 -19 0 1 45.64 44.35"/>
+    <path class="hi" stroke="#FDE68A" d="M37.69 48.17A11.83 13.89 -8 1 1 59.38 58.21"/>
+    <path class="hi" stroke="#FDE68A" d="M55.63 62.18A11.83 13.89 -8 0 1 38.37 54.19"/>
+    <path class="mid" stroke="#F59E0B" d="M41.98 68.99A17.74 20.83 3 1 1 63.86 37.45"/>
+    <path class="mid" stroke="#F59E0B" d="M66.95 45.72A17.74 20.83 3 0 1 49.54 70.81"/>
+    <path class="mid" stroke="#F59E0B" d="M66.4 67.99A23.66 27.77 14 1 1 42.89 24.18"/>
+    <path class="mid" stroke="#F59E0B" d="M53.31 22.55A23.66 27.77 14 0 1 72 57.4"/>
+    <path class="mid" stroke="#F59E0B" d="M77.14 31.89A29.57 34.71 25 1 1 19.02 52.09"/>
+    <path class="mid" stroke="#F59E0B" d="M22.72 37.5A29.57 34.71 25 0 1 68.95 21.44"/>
+    <path class="lo" stroke="#B45309" stroke-opacity="0.85" d="M45.35 11.72A35.48 41.66 36 1 1 35.1 88.49"/>
+    <path class="lo" stroke="#B45309" stroke-opacity="0.85" d="M21.63 80.82A35.48 41.66 36 0 1 29.78 19.75"/>
+    <path class="lo" stroke="#B45309" stroke-opacity="0.85" d="M5.11 47.8A41.4 48.6 47 1 1 83.91 73.53"/>
+    <path class="lo" stroke="#B45309" stroke-opacity="0.85" d="M68.03 87.57A41.4 48.6 47 0 1 5.34 67.1"/>
+  </g>
+  <ellipse class="core" fill="#FDE68A" cx="49.52" cy="50" rx="2.44" ry="2.96"/>
+  </g>
 </svg>
